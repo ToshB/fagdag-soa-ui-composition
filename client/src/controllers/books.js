@@ -1,4 +1,5 @@
 import {createFactory, createClass, DOM} from 'react';
+import {assign} from 'lodash';
 const {div, h1} = DOM;
 import {bookList} from '@toshb/soaui-sales/components';
 
@@ -14,7 +15,10 @@ export default function (salesApi) {
     },
 
     prepareData({pageData}) {
-      return pageData;
+      const books = pageData.books.map(book => {
+        return assign({link: `/books/${book.id}`}, book);
+      });
+      return {books};
     },
 
     render: createFactory(createClass({

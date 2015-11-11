@@ -11,7 +11,7 @@ export default function (render) {
   const app = createApp({render});
 
   app.addPage('index', '/', home());
-  app.addPage('bookList', '/books', books(salesApi));
+  app.addPage('bookList', '/books', books(salesApi, marketingApi));
   app.addPage('bookDetails', '/books/:bookId', bookDetails(salesApi, marketingApi));
 
   return app;
