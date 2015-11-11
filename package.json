@@ -30,8 +30,8 @@
     "watchify": "^3.6.0"
   },
   "dependencies": {
-    "@toshb/soaui-marketing": "git+ssh://git@github.com/ToshB/soaui-marketing.git#v0.1.0",
-    "@toshb/soaui-sales": "git+ssh://git@github.com/ToshB/soaui-sales.git#v0.2.0",
+    "@toshb/soaui-marketing": "git+ssh://git@github.com/ToshB/soaui-marketing.git#v0.2.0",
+    "@toshb/soaui-sales": "git+ssh://git@github.com/ToshB/soaui-sales.git#v0.3.0",
     "express": "^4.13.3",
     "express-static": "^1.0.3",
     "lodash": "^3.10.1",
