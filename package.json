@@ -1,6 +1,6 @@
 {
   "name": "fagdag-soa-ui-composition",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "SOA UI Composition Example",
   "main": "index.js",
   "scripts": {
